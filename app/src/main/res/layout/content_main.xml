@@ -30,53 +30,51 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Spotify Streamer"
-            android:textAlignment="center"
+            android:layout_marginBottom="8dp"
             android:background="@color/colorPrimary"
             android:onClick="sendMessage"
-            android:layout_marginBottom="8dp"
-            />
+            android:text="Spotify Streamer"
+            android:textAlignment="center" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
             android:layout_marginBottom="8dp"
+            android:background="@color/colorPrimary"
             android:onClick="sendMessage"
             android:text="Scores App" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:background="@color/colorPrimary"
             android:onClick="sendMessage"
-            android:layout_marginBottom="8dp"
             android:text="Library App" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
             android:layout_marginBottom="8dp"
+            android:background="@color/colorPrimary"
             android:onClick="sendMessage"
             android:text="Build it Bigger" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
             android:layout_marginBottom="8dp"
+            android:background="@color/colorPrimary"
             android:onClick="sendMessage"
             android:text="XYZ Reader" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorAccent"
             android:layout_marginBottom="8dp"
-            android:text="Capstone: My Own App"
+            android:background="@color/colorAccent"
             android:onClick="sendMessage"
-            />
+            android:text="Capstone: My Own App" />
 
     </LinearLayout>
 
