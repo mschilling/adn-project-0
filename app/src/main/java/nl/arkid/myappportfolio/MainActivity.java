@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         Button button = (Button) view;
 
         Context context = getApplicationContext();
-        CharSequence text = "Hello " + button.getText();
+        CharSequence text = "This will launch " + button.getText();
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(context, text, duration);
